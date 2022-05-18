@@ -1,0 +1,24 @@
+
+
+.debug {
+    border: 1px solid #000;
+}
+
+.mast-img {
+    width: auto; 
+    height: 90vh;
+}
+
+.pole .navigation li:after {  
+    width: 7px;
+    border-radius: 3px;
+    background-color: #e0e1e3;
+}
+
+@media only screen and (max-device-width: 481px) {
+    .mast-img {
+        width: auto; 
+        height: 55vh;
+    }
+    
+}
